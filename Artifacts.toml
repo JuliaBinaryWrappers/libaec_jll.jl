@@ -1,12 +1,20 @@
 [[libaec]]
 arch = "aarch64"
+git-tree-sha1 = "7936ea52c93312458b7841637711312da16b475d"
+os = "macos"
+
+    [[libaec.download]]
+    sha256 = "45d85e7bc4e3423dcc7a24327246c4ac67cd1dff227a9a73c443e8b6678ecb4d"
+    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+1/libaec.v1.0.6.aarch64-apple-darwin.tar.gz"
+[[libaec]]
+arch = "aarch64"
 git-tree-sha1 = "54a671b32d139a5ee9e4f0d1b2941353852b9454"
 libc = "glibc"
 os = "linux"
 
     [[libaec.download]]
     sha256 = "1c5f29e1f8142182250e60685ee122cff0a0ac00d165a1a9d0d1ec6e1f844068"
-    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+0/libaec.v1.0.6.aarch64-linux-gnu.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+1/libaec.v1.0.6.aarch64-linux-gnu.tar.gz"
 [[libaec]]
 arch = "aarch64"
 git-tree-sha1 = "684a5f82fe24f01b5ff711da4d36e41c90b09038"
@@ -15,7 +23,7 @@ os = "linux"
 
     [[libaec.download]]
     sha256 = "13c3e48564fbfac78ec4ce1acf857d5b3bb52de159e1fbf4e02c2b4ac8eb781b"
-    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+0/libaec.v1.0.6.aarch64-linux-musl.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+1/libaec.v1.0.6.aarch64-linux-musl.tar.gz"
 [[libaec]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -25,7 +33,7 @@ os = "linux"
 
     [[libaec.download]]
     sha256 = "d7da2c1bcd91b0e65c7ee45ea1d8a81ecab6e3e98438d0812798dbf25c9ce2a6"
-    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+0/libaec.v1.0.6.armv6l-linux-gnueabihf.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+1/libaec.v1.0.6.armv6l-linux-gnueabihf.tar.gz"
 [[libaec]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -35,7 +43,7 @@ os = "linux"
 
     [[libaec.download]]
     sha256 = "0d3fa44209843a657f2cd89555b4f7b8d56658fdd5c2d110ee70f96bd9162d0d"
-    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+0/libaec.v1.0.6.armv6l-linux-musleabihf.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+1/libaec.v1.0.6.armv6l-linux-musleabihf.tar.gz"
 [[libaec]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -45,7 +53,7 @@ os = "linux"
 
     [[libaec.download]]
     sha256 = "3c439e350adeb240df7782265793578127dd3bec7e58b5dc12b498d2d79f689f"
-    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+0/libaec.v1.0.6.armv7l-linux-gnueabihf.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+1/libaec.v1.0.6.armv7l-linux-gnueabihf.tar.gz"
 [[libaec]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -55,7 +63,7 @@ os = "linux"
 
     [[libaec.download]]
     sha256 = "5175695a1370018c3611c41079321fd02a331388c0a685f8361bf1b3ed6d15d2"
-    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+0/libaec.v1.0.6.armv7l-linux-musleabihf.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+1/libaec.v1.0.6.armv7l-linux-musleabihf.tar.gz"
 [[libaec]]
 arch = "i686"
 git-tree-sha1 = "f221f16331e7568597c3b702c52637f412c254f8"
@@ -64,7 +72,7 @@ os = "linux"
 
     [[libaec.download]]
     sha256 = "536dc116450014131368ccfb28d734658d80f01b88067505aa7373026723f933"
-    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+0/libaec.v1.0.6.i686-linux-gnu.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+1/libaec.v1.0.6.i686-linux-gnu.tar.gz"
 [[libaec]]
 arch = "i686"
 git-tree-sha1 = "595ec437fae8717dc8427a0d095dba9fb7f220a6"
@@ -73,7 +81,15 @@ os = "linux"
 
     [[libaec.download]]
     sha256 = "940343dcad9e8af014907545dab7c39749c1f2ca3c12eca710f3642f2f89ce69"
-    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+0/libaec.v1.0.6.i686-linux-musl.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+1/libaec.v1.0.6.i686-linux-musl.tar.gz"
+[[libaec]]
+arch = "i686"
+git-tree-sha1 = "edeff484a7697bcef1df0f38f3040b1863081690"
+os = "windows"
+
+    [[libaec.download]]
+    sha256 = "fb6aee1ec6baacf09e16b19c0585cf25aae53ec17b1e3769f40bb417addc5f6c"
+    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+1/libaec.v1.0.6.i686-w64-mingw32.tar.gz"
 [[libaec]]
 arch = "powerpc64le"
 git-tree-sha1 = "e1990097dc143a8ba2756124da03b5b1501e82c7"
@@ -82,7 +98,15 @@ os = "linux"
 
     [[libaec.download]]
     sha256 = "22b8f1018c38416a86e99af0138e68d19056b3e5086bfeec11dc11f165221a48"
-    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+0/libaec.v1.0.6.powerpc64le-linux-gnu.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+1/libaec.v1.0.6.powerpc64le-linux-gnu.tar.gz"
+[[libaec]]
+arch = "x86_64"
+git-tree-sha1 = "6f1c5c6aa5f393f2d0325c01dcf0697bf3fdf61f"
+os = "macos"
+
+    [[libaec.download]]
+    sha256 = "bd1c49b0af4fec2fef31f2cdedbb1a3c66913f86a000ae9e0832e8ff11fbd8eb"
+    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+1/libaec.v1.0.6.x86_64-apple-darwin.tar.gz"
 [[libaec]]
 arch = "x86_64"
 git-tree-sha1 = "f5b6e676ae7a0d2740b991083243e0089b81c488"
@@ -91,7 +115,7 @@ os = "linux"
 
     [[libaec.download]]
     sha256 = "03e5d9c43df29bca4f4ba53654b4a369dde8e92f561071825fe79c22b5d0419d"
-    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+0/libaec.v1.0.6.x86_64-linux-gnu.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+1/libaec.v1.0.6.x86_64-linux-gnu.tar.gz"
 [[libaec]]
 arch = "x86_64"
 git-tree-sha1 = "223fca5c76559720e6109f24f423be3d31fecc58"
@@ -100,4 +124,20 @@ os = "linux"
 
     [[libaec.download]]
     sha256 = "f4c07170ebcf8a542fa95ca55749ddad64c80a85e185c685d2d4fb8002dfd973"
-    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+0/libaec.v1.0.6.x86_64-linux-musl.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+1/libaec.v1.0.6.x86_64-linux-musl.tar.gz"
+[[libaec]]
+arch = "x86_64"
+git-tree-sha1 = "617cd147ea3ed3763ae37a070ec74743d27e996d"
+os = "freebsd"
+
+    [[libaec.download]]
+    sha256 = "7cb151b67738e71d0e4fc98bf1ffd2cc8eadeee769098c81ba7ffffb29027820"
+    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+1/libaec.v1.0.6.x86_64-unknown-freebsd.tar.gz"
+[[libaec]]
+arch = "x86_64"
+git-tree-sha1 = "d99708b4a29d0202cb2ae381aa418e0bd600eaa3"
+os = "windows"
+
+    [[libaec.download]]
+    sha256 = "06de4d8169ae64b70c0b0763a1eee62976947a3854a587444d5e592964b9d7ab"
+    url = "https://github.com/JuliaBinaryWrappers/libaec_jll.jl/releases/download/libaec-v1.0.6+1/libaec.v1.0.6.x86_64-w64-mingw32.tar.gz"
