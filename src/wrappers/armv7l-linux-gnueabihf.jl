@@ -21,7 +21,7 @@ function __init__()
 
     JLLWrappers.@init_executable_product(
         aec,
-        "bin/aec",
+        "bin/graec",
     )
 
     JLLWrappers.@generate_init_footer()

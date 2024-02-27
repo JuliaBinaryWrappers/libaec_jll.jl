@@ -9,7 +9,7 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libaec,
-        "lib/libaec.0.0.12.dylib",
+        "lib/libaec.0.1.2.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
@@ -21,7 +21,7 @@ function __init__()
 
     JLLWrappers.@init_executable_product(
         aec,
-        "bin/aec",
+        "bin/graec",
     )
 
     JLLWrappers.@generate_init_footer()
