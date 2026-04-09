@@ -9,7 +9,7 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libaec,
-        "lib/libaec.0.1.5.dylib",
+        "lib/libaec.0.1.6.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
