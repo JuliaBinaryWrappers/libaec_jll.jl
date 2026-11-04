@@ -2,20 +2,20 @@
 export aec, libaec, libsz
 
 JLLWrappers.@generate_wrapper_header("libaec")
-JLLWrappers.@declare_library_product(libaec, "libaec.so.0")
 JLLWrappers.@declare_library_product(libsz, "libsz.so.2")
+JLLWrappers.@declare_library_product(libaec, "libaec.so.0")
 JLLWrappers.@declare_executable_product(aec)
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
-        libaec,
-        "lib/libaec.so",
+        libsz,
+        "lib/libsz.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
-        libsz,
-        "lib/libsz.so",
+        libaec,
+        "lib/libaec.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
